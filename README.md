@@ -94,4 +94,3 @@ El núcleo de este software ignora simplificaciones de libros básicos y calcula
 ---
 
 **Desarrollado para Ingeniería de Sistemas Eléctricos de Potencia.**
-```
