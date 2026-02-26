@@ -30,10 +30,8 @@ pip install numpy PyQt6
 3. Ejecuta la aplicación:
 
 ```bash
-python ems_analizador.py
+python CONTINGENCIAS_N-1.py
 ```
-
-*(Asegúrate de nombrar tu archivo de Python como `ems_analizador.py` o sustitúyelo por el nombre real de tu script).*
 
 ---
 
