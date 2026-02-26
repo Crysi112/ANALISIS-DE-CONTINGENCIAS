@@ -1,14 +1,8 @@
-
-
-
-Aquí tienes el texto listo. Solo haz clic en el botón **"Copiar código"** (en la esquina superior derecha del recuadro negro) y pégalo directamente en el archivo `README.md` de tu repositorio en GitHub:
-
-```markdown
-# ⚡ EMS: Analizador de Seguridad de Redes de Potencia
+# EMS: Analizador de Seguridad de Redes de Potencia
 
 Este proyecto es un simulador avanzado de **Sistemas de Gestión de Energía (EMS)** diseñado para Centros de Control de redes eléctricas. Realiza cálculos de flujos de potencia, estimación de estado y análisis predictivo de seguridad (Criterio N-1) en tiempo real mediante aproximaciones lineales (Flujo de C.D.) y cálculo exacto de factores de sensibilidad matriciales.
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Flujo de Potencia de C.D. Exacto**: Cálculo instantáneo de ángulos de fase y flujos activos construyendo la matriz de susceptancia `[B]` y su inversa `[F]`.
 * **Estimador de Estado WLS**: Simula mediciones ruidosas típicas de un sistema SCADA real y las filtra utilizando el algoritmo estadístico de Mínimos Cuadrados Ponderados (Weighted Least Squares).
@@ -22,7 +16,7 @@ Este proyecto es un simulador avanzado de **Sistemas de Gestión de Energía (EM
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 El programa está escrito en **Python 3.8+**. Para ejecutarlo, solo necesitas instalar las librerías matemáticas y gráficas base.
 
@@ -43,7 +37,7 @@ python ems_analizador.py
 
 ---
 
-## 📖 Guía de Uso Rápido
+## Guía de Uso Rápido
 
 1. **Cargar la Topología (CSV)**
    Haz clic en el botón `Cargar Topología` y selecciona tu archivo CSV o Excel exportado. El programa leerá nodos, líneas, reactancias, límites de potencia y estados de generación.
@@ -65,7 +59,7 @@ python ems_analizador.py
 
 ---
 
-## 📊 Formato del Archivo CSV
+## Formato del Archivo CSV
 
 El programa tiene un analizador de texto muy flexible, pero se recomienda que el archivo `.csv` contenga las siguientes columnas (no importa el orden ni las mayúsculas/minúsculas):
 
@@ -89,7 +83,7 @@ El programa tiene un analizador de texto muy flexible, pero se recomienda que el
 
 ---
 
-## 🧮 Fundamento Matemático
+## Fundamento Matemático
 
 El núcleo de este software ignora simplificaciones de libros básicos y calcula los valores basándose en el análisis topológico matricial exacto implementado en centros de control reales:
 
@@ -103,5 +97,3 @@ El núcleo de este software ignora simplificaciones de libros básicos y calcula
 
 **Desarrollado para Ingeniería de Sistemas Eléctricos de Potencia.**
 ```
-
-*(Nota: GitHub soporta nativamente la notación matemática con `$` que he puesto al final, por lo que las fórmulas se renderizarán correctamente y con aspecto profesional en tu repositorio).*
