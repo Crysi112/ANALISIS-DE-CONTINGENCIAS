@@ -7,7 +7,7 @@ Este proyecto es un simulador avanzado de **Sistemas de Gestión de Energía (EM
 * **Flujo de Potencia de C.D. Exacto**: Cálculo instantáneo de ángulos de fase y flujos activos construyendo la matriz de susceptancia `[B]` y su inversa `[F]`.
 * **Estimador de Estado WLS**: Simula mediciones ruidosas típicas de un sistema SCADA real y las filtra utilizando el algoritmo estadístico de Mínimos Cuadrados Ponderados (Weighted Least Squares).
 * **Análisis de Contingencias N-k y Cascadas**: Permite al operador desconectar múltiples líneas, generadores o cargas simultáneamente, evaluando si el nuevo flujo de potencia provoca sobrecargas térmicas y desconexiones en cascada.
-* **Proyección de Seguridad N-1 (Fuerza Bruta Inteligente)**: Evalúa en milisegundos qué pasaría si *cualquier* elemento del sistema fallara en el estado actual, alertando de posibles vulnerabilidades futuras.
+* **Proyección de Seguridad N-1**: Evalúa en milisegundos qué pasaría si *cualquier* elemento del sistema fallara en el estado actual, alertando de posibles vulnerabilidades futuras.
 * **Matrices de Sensibilidad Inteligentes**:
   * **GSF (Generation Shift Factors)**: Calcula y resalta qué generadores afectan positiva o negativamente a qué líneas.
   * **LODF (Line Outage Distribution Factors)**: Muestra el porcentaje de flujo que absorberá una línea si otra se desconecta.
